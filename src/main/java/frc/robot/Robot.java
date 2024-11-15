@@ -12,16 +12,18 @@ public class Robot extends TimedRobot {
 
   public Robot() {
     m_robotContainer = new RobotContainer();
+
   }
 
   @Override
   public void robotPeriodic() {
     CommandScheduler.getInstance().run();
-    //Demo
   }
 
   @Override
-  public void disabledInit() {}
+  public void disabledInit() {
+    
+  }
 
   @Override
   public void disabledPeriodic() {}

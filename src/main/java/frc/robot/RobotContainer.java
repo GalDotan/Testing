@@ -9,7 +9,6 @@ public class RobotContainer {
 
   public RobotContainer() {
     configureBindings();
-    //Demo
   }
 
   private void configureBindings() {
